@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(19 135 114);
+    /* width: 10vw;
+    height: 94vh; */
+    padding: 20px;
+    /* transition: transform 0.3s; */
+}
+.sidebar ul li{
+    padding: 20px 0px;
+    margin:10px;
+    font-size: 20px;
+    list-style: none;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color:aquamarine;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.info{
+    display: flex;
+    border-radius: 10px;
+    /* background-color: rgb(95, 62, 89); */
+    /* width: 80vw; */
+    /* height: 40vh; */
+    margin: 30px auto;
+    justify-content: space-around;
+}
+.devpic img{
+    width: 37vh;
+    height:45vh;
+    margin:20px;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 30px;
+}
+.hello{
+    font-size: 40px;
+
+}
+.sidebargo{
+    transform:translate(-443px,0px);
+    position: absolute;
+
+}
+.hamburger{
+    position: absolute;
+    /* display: flex; */
+    cursor: pointer;
+}
+.ham{
+    margin: 5px 10px;
+    width: 25px;
+}
+.cross{
+    margin: 5px 10px;
+    width: 25px;
+    margin-left:30px;
+}
+.Name{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.About{
+    font-size: 15px;
+    margin: 5px;
+
+}
+.butn{
+    margin: 8px 10px;
+    font-weight:bold;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:aquamarine;
+    cursor: pointer;
+    
+}
+.button{
+    display: flex;
+}
+.butn:hover {
+    background-color:rgb(19 135 114);
+}
+@media only screen and (max-width: 600px) {
+    .main {
+      background-color: aquamarine;
+      margin: 0px;
+      padding: 10px 0px;
+      /* height: auto; */
+    }}
+
+      
+@media only screen and (max-width: 600px) {
+    .sidebar {
+     background-color:rgb(19, 135, 114); 
+    display: block;
+    width: 22vw;
+    height: auto;
+    padding: 0px 8px;
+}   
+    }
+
+@media only screen and (max-width: 600px) {
+    .devpic{
+      display: none;
+
+    }
+    .devinfo{
+        margin: 5px 8px;
+    }
+}

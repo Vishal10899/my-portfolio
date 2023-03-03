@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+     background-color: rgb(19, 135, 114);
+    width: 10vw;
+    height: 94vh;
+    padding: 20px 10px;
+}
+.sidebar ul li{
+    padding: 20px 5px;
+    margin:10px 5px;
+    font-size: 20px;
+    list-style: none;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: rgb(9, 81, 68); */
+    background-color: aquamarine;
+     width: 100vw;
+    height: 100vh; 
+}
+.sidebargo{
+    transform:translate(-443px,0px);
+    position: absolute;
+
+}
+.hamburger{
+    position: absolute;
+    /* display: flex; */
+    cursor: pointer;
+}
+.ham{
+    margin: 5px 10px;
+    width: 25px;
+}
+.cross{
+    margin: 5px 10px;
+    width: 25px;
+    margin-left:30px;
+}
+.container{
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.contact h1{
+    margin: 30px 20px;
+}
+#msg{
+     width: 15vw;
+    height: 10vh;
+    margin: 10px; 
+    padding-left:10px;
+}
+.name{
+    display: flex;
+    margin:10px;
+    font-size: 15px;
+}
+/* .lastname{
+    display: flex;
+    margin: 10px;
+} */
+.Email{
+    display: flex;
+    margin: 30px 20px;
+    font-size: 15px;
+}
+.Phone{
+    display: flex;
+    margin: 30px 20px;
+    font-size: 15px;
+}
+.msg{
+    font-size: 15px;
+    display: flex;
+    margin: 30px 20px;
+}
+div input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px; 
+    font-size: 10px;
+}
+.btn{
+    
+    margin: 0px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 6px;
+    background-color:aquamarine;
+}
+.btn:hover{
+    background-color: rgb(19 135 114);
+}
+@media only screen and (max-width: 600px) {
+.main {
+      background-color:aquamarine;
+      /* width: auto; */
+      /* margin: 0px; */
+      /* padding: 10px 0px; */
+      /* height: auto; */
+    }
+
+.sidebar {
+     background-color:rgb(19, 135, 114); 
+    display: block;
+    width: 22vw;
+    height: auto;
+    /* padding: 0px; */
+}
+.contact {
+  /* background-color: lightblue; */
+  margin: 5px;
+  padding: 8px 0px;
+}
+
+#msg{
+    width: 28vw;
+    height: 5vh;
+    margin: 10px; 
+    padding-left:10px;
+}
+.contact h1{
+    background-color:rgb(19, 135, 114);
+    padding:8px;
+}
+
+}
